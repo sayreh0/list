@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+    <script>
+        let header = document.createElement('header');
+        header.textContent = 'Spring Flowers in Indiana';
+        header.style.fontSize = '200%'; 
+        header.style.textAlign = 'center'; 
+        document.body.append(header); 
+
+        let paragraph = document.createElement('p');
+        paragraph.textContent = 'Springtime in Indiana is never predictable, it could be filled with sunshine, rain and even snow. The best way to prepare for Spring is to keep a range of clothing handy, because you never know what the weather will bring.';
+        document.body.append(paragraph); 
+
+        let list = document.createElement('ul');
+        let item = document.createElement('li');
+        item.textContent = 'Daffodil, golden yellow rays of sunlight';
+        list.append(item);
+
+        item = document.createElement('li');
+        item.textContent = 'Crocus, purple carpets'
+        list.append(item);
+
+        item = document.createElement('li');
+        item.textContent = 'Iris, multi-coloured spectacle'
+        list.append(item);
+
+        document.body.append(list);
+    </script>
+</body>
+</html>
